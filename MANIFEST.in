@@ -1,2 +1,2 @@
 include README.md
-include sunset_scale/packageData/*
+include distribution_builder/packageData/*

@@ -12,15 +12,6 @@ continue_file = os.path.join(this_folder, 'packageData//continue.png')
 continue_mouseover_file = os.path.join(this_folder, 'packageData//continue_mouseover.png')
 
 
-def quitExp():
-    quitDlg = gui.Dlg(title="Quit Experiment?")
-    quitDlg.addText("Quit Experiment?")
-    quitDlg.show()  # show dialog and wait for OK or Cancel
-    if quitDlg.OK:
-        pygame.quit()
-        sys.exit()
-    else:
-       pass
 
 
 def drawStaticTicks(Screen, scale_numbers, tick_positions, tick_font, offset = 20, tick_mode = "static", precision = 1 , custom_ticks = ["", ""]):

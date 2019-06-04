@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: distribution-builder
+Version: 0.0.1
+Summary: Distribution builder for `pygame` that can be used to elicit probability / value distributions from people, adapted from Sharpe, Goldstein, and Blythe (2000) and Goldstein, Johnson, and Sharpe (2008).
+Home-page: https://github.com/julianquandt/distribution_builder
+Author: Julian Quandt
+Author-email: julian_quandt@live.de
+License: UNKNOWN
+Description: # Distribution Builder
+        
+        Distribution builder for `pygame` that can be used to elicit probability / value distributions from people, adapted from Sharpe, Goldstein, and Blythe (2000) and Goldstein, Johnson, and Sharpe (2008).
+        
+        
+        # References
+        
+        Sharpe, W. F., Goldstein, D. G., & Blythe, P. W. (2000). The Distribution Builder: A tool for inferring investor preferences. Working paper at http://www.stanford.edu/~wfsharpe/art/qpaper/qpaper.html .
+        
+        Goldstein, D. G., Johnson, E. J., & Sharpe, W. F. (2008). Choosing outcomes versus choosing products: Consumer-focused retirement investment advice. Journal of Consumer Research, 35(3), 440-456. doi: 10.1086/589562
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
