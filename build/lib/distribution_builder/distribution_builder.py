@@ -1,4 +1,5 @@
-import pygame, csv, math, os, numpy
+import pygame, csv, math, os, numpy, sys
+from psychopy import gui
 
 scrInfo = pygame.display.Info()
 #rgb-colors
@@ -213,7 +214,7 @@ def saveDistributionData(df_name, pp_info, height_list, remaining_points, action
 
 
 def distributionBuilder(df_name, pp_info, Screen, stim, min=0, max=250, scale_length=0.8, precision=100, points=50,
-                        pos=(0, 0), offset=20, tick_mode = "floating", max_height = 0.99, custom_ticks = ["", ""], **kwargs):
+                        pos=(0, 0), offset=20, tick_mode="floating", max_height=0.99, custom_ticks=("", ""), **kwargs):
     # running a single distribution builder trial (i.e. until 1 stimulus is rated)
     if len(kwargs)>0:
         added_vars = kwargs

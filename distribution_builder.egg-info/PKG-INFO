@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: distribution-builder
-Version: 0.0.1
+Version: 0.0.2
 Summary: Distribution builder for `pygame` that can be used to elicit probability / value distributions from people, adapted from Sharpe, Goldstein, and Blythe (2000) and Goldstein, Johnson, and Sharpe (2008).
 Home-page: https://github.com/julianquandt/distribution_builder
 Author: Julian Quandt

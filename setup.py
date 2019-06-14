@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="distribution-builder",
-    version="0.0.1",
+    version="0.0.2",
     author="Julian Quandt",
     author_email="julian_quandt@live.de",
     description="Distribution builder for `pygame` that can be used to elicit probability / value distributions from people, adapted from Sharpe, Goldstein, and Blythe (2000) and Goldstein, Johnson, and Sharpe (2008).",
